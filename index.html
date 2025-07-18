@@ -67,40 +67,98 @@
     <footer>
         <nav>
             <h3>Institucional</h3>
-                <ul>
-                    <li><a href="/ ">Home</a></li>
-                    <li><a href="#sobre">sobre</li>
-                    <li><a href="#produtos">produtos</a></li>
-                    <li><a href="#perguntas-frequentes">Perguntas Frequentes</a></li>
-                    <li><a href="#fale conosco">fale conosco</a></li>
-                </ul>
+            <ul>
+                <li><a href="/ ">Home</a></li>
+                <li><a href="#sobre">sobre</li>
+                <li><a href="#produtos">produtos</a></li>
+                <li><a href="#perguntas-frequentes">Perguntas Frequentes</a></li>
+                <li><a href="#fale conosco">fale conosco</a></li>
+            </ul>
             </h3>
         </nav>
-         <nav>
+        <nav>
             <h3>Ajuda</h3>
-                <ul>
-                    <li><a href="#trocas">trocas e devluções</a></li>
-                    <li><a href="#termos">Termos e condições</a></li>
-                    <li><a href="#politica">Politica de privacidade</a></li>
-                    <li><a href="#padrão">Padrão de qualidade</a></li>
-                </ul>
+            <ul>
+                <li><a href="#trocas">trocas e devluções</a></li>
+                <li><a href="#termos">Termos e condições</a></li>
+                <li><a href="#politica">Politica de privacidade</a></li>
+                <li><a href="#padrão">Padrão de qualidade</a></li>
+            </ul>
             </h3>
         </nav>
         <nav>
             <h3>Endereço</h3>
-                <ul>
-                    <li><a href="#">Rua Vale do Silicio</a></li>
-                    <li>São Francisco, da Califórnia</li>
-                    <li>Estados Unidos da America</li>
-                    <li><a href="#Padrão">(34) 11234-5456789</a></li>
-                     <li><a href="#">vendas@ecommercedd.com</a></li>
-                </ul>
+            <ul>
+                <li><a href="#">Rua Vale do Silicio</a></li>
+                <li>São Francisco, da Califórnia</li>
+                <li>Estados Unidos da America</li>
+                <li><a href="#Padrão">(34) 11234-5456789</a></li>
+                <li><a href="#">vendas@ecommercedd.com</a></li>
+            </ul>
             </h3>
         </nav>
         <div>
             <p>@2025 todos os direitos reservados</p>
         </div>
     </footer>
+    <!-- [1] -->
+    <div id="modal-1" class="modal" aria-hidden="true">
+
+        <!-- [2] -->
+        <div tabindex="-1" data-micromodal-close>
+
+            <!-- [3] -->
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+
+
+                <header>
+                    <h2 id="modal-1-title">
+                        carrinho de compras
+                    </h2>
+
+                    <!-- [4] -->
+                    <button aria-label="Close modal" data-micromodal-close></button>
+                </header>
+
+                <div id="modal-1-content">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Produto</th>
+                                <th>Descrição</th>
+                                <th>Preço</th>
+                                <th>Quantidade</th>
+                                <th>Total</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="./assets/images/camiseta_roxa.jpg"></td>
+                                <td>Camiseta Devem em Dobro - roxa</td>
+                                <td><input type="number" value="1" min="1"></td>
+                                <td>R$ 89,90</td>
+                            </tr><button id="deletar">deletar</button>
+                            <tr>
+                                <td>Camiseta Devem em Dobro - azul</td>
+                                <td>2</td>
+                                <td>R$ 100,00</td>
+                            </tr>
+                        </tbody>
+                        <table>
+                            <div>
+                                <span id="total carrinho">Total: R$ 0,00</span>
+                                <button>finalizar compra</button>
+                            </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <sccript src="https://unpkg.com/micromodal/dist/micromodal.min.js">
+        </script>
 </body>
 
 </html>
